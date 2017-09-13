@@ -38,6 +38,15 @@ ruleTester.run("explicit-button-type", rule, {
       },
       code: '<button type="submit">Save Changes</button>;'
     },
+    {
+      env: { es6: true },
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true
+        }
+      },
+      code: '<div>Just text</div>;'
+    },
   ],
 
   invalid: [
