@@ -7,6 +7,14 @@
     "eslintplugin",
     "eslint-plugin"
   ],
+  "homepage": "https://github.com/hijup/eslint-plugin-hijup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hijup/eslint-plugin-hijup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hijup/eslint-plugin-hijup/issues"
+  },
   "author": "HIJUP",
   "main": "lib/index.js",
   "scripts": {
